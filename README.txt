@@ -22,6 +22,9 @@ i.e.
 The algorithm will go through the coeffeciants of all the features in the list associated with the "features" parameter and pick out all of the features that have a coefficient of
 .2 or HIGHER.
 
+NOTE: When selecting a threshold, it will accept coefficients with negatives as well.
+For example: if the set threshold is .2, the function will return features with a coefficient less than or equal to -.2
+
 
 The function should be called after all of these variable have already been established.
 The function will return a dictionary with a key:value pair of feature:coef
