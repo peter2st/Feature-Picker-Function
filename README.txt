@@ -8,7 +8,7 @@ log.fit(x_train, y_train)
 In this case, "log" would be inputted for this parameter.
 
 
-features -- This paramter will be the list of all the features that are in the data set you are using
+features -- This parameter will be the list of all the features that are in the data set you are using
 i.e.
 x = df[['sex', 'cp', 'fbs', 'restecg', 'exng', 'oldpeak', 'caa', 'thall']]
 
@@ -28,3 +28,7 @@ For example: if the set threshold is .2, the function will return features with 
 
 The function should be called after all of these variable have already been established.
 The function will return a dictionary with a key:value pair of feature:coef
+
+Feel free to let me know of any suggestions or fixes.
+
+Thanks!
